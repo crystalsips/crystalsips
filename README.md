@@ -1,16 +1,17 @@
-## Hi there 👋
+# Crystal Sips - Premium Custom Water Bottles
 
-<!--
-**crystalsips/crystalsips** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Official website for Crystal Sips - Bardhaman District's #1 custom water bottle brand.
 
-Here are some ideas to get you started:
+## Features
+- Premium custom water bottles
+- Corporate gifting solutions
+- Wedding and event bottles
+- Fast delivery across India
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Contact
+- WhatsApp: +91 97492 45556
+- Instagram: @crystalsips
+- Website: crystalsipsofficial.com
+
+## Live Demo
+Visit: https://yourusername.github.io/crystal-sips-website
