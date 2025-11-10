@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Crystal Sips - Premium Custom Water Bottles | Bardhaman's #1 Custom Water Brand</title>
+    <meta name="description" content="Crystal Sips - Bardhaman District's #1 custom water bottle brand. Premium custom water bottles for events, corporate gifting, weddings. Fast delivery across India.">
+    <meta name="keywords" content="custom water bottles, Crystal Sips, premium water bottles, corporate gifting, wedding water bottles, event water bottles, Bardhaman, India">
+    <meta name="author" content="Crystal Sips">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://crystalsipsofficial.com/">
+    <meta property="og:title" content="Crystal Sips - Premium Custom Water Bottles | Bardhaman's #1">
+    <meta property="og:description" content="Bardhaman District's #1 custom water bottle brand. Premium custom water bottles for events, corporate gifting, weddings.">
+    <meta property="og:image" content="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://crystalsipsofficial.com/">
+    <meta property="twitter:title" content="Crystal Sips - Premium Custom Water Bottles">
+    <meta property="twitter:description" content="Bardhaman District's #1 custom water bottle brand. Premium custom water bottles for events, corporate gifting, weddings.">
+    <meta property="twitter:image" content="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://crystalsipsofficial.com/">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Crystal Sips",
+      "url": "https://crystalsipsofficial.com/",
+      "logo": "https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg",
+      "description": "Crystal Sips - Bardhaman District's #1 custom water bottle brand providing premium custom water bottles for events, corporate gifting, and weddings.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-97492-45556",
+        "contactType": "Customer Service",
+        "areaServed": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/crystalsips",
+        "https://wa.me/919749245556"
+      ]
+    }
+    </script>
+    
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Crystal Sips",
+      "description": "Premium Custom Water Bottles - Bardhaman District's #1 custom water bottle brand",
+      "url": "https://crystalsipsofficial.com/",
+      "telephone": "+91-97492-45556",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India"
+      },
+      "areaServed": "Bardhaman, West Bengal, India",
+      "knowsAbout": ["Custom Water Bottles", "Corporate Gifting", "Event Water Bottles", "Wedding Favors"],
+      "priceRange": "₹",
+      "openingHours": "Mo-Su 09:00-20:00"
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg" type="image/jpeg">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg" as="image">
+    <link rel="preload" href="https://i.ibb.co/GQ2MyL9p/IMG-20251028-215140.png" as="image">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        :root {
+            --background: 230 35% 12%;
+            --foreground: 210 40% 98%;
+            --card: 230 30% 15%;
+            --card-foreground: 210 40% 98%;
+            --primary: 210 100% 50%;
+            --primary-foreground: 210 40% 98%;
+            --secondary: 200 100% 50%;
+            --secondary-foreground: 210 40% 98%;
+            --muted: 230 25% 20%;
+            --muted-foreground: 215 20% 65%;
+            --accent: 280 65% 60%;
+            --border: 230 25% 25%;
+            --gradient-purple: 270 70% 60%;
+            --gradient-pink: 340 80% 65%;
+            --gradient-orange: 25 95% 60%;
+            --gradient-yellow: 210 100% 50%;
+            --price-color: 45 100% 50%;
+        }
+        
+        body {
+            background-color: hsl(var(--background));
+            color: hsl(var(--foreground));
+            font-family: system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(
+                135deg,
+                hsl(var(--gradient-purple)),
+                hsl(var(--gradient-pink)),
+                hsl(var(--gradient-orange)),
+                hsl(var(--gradient-yellow))
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% 200%;
+            animation: gradient-shift 3s ease infinite;
+        }
+        
+        @keyframes gradient-shift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+        
+        .card {
+            background-color: hsl(var(--card));
+            border: 1px solid hsl(var(--border));
+            border-radius: 0.75rem;
+            transition: all 0.3s;
+        }
+        
+        .card:hover {
+            border-color: hsl(var(--primary) / 0.5);
+        }
+        
+        .btn-primary {
+            background-color: hsl(var(--primary));
+            color: hsl(var(--primary-foreground));
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+        
+        .btn-secondary {
+            background-color: hsl(var(--secondary));
+            color: hsl(var(--secondary-foreground));
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .btn-secondary:hover {
+            opacity: 0.9;
+        }
+        
+        .nav-link {
+            color: hsl(var(--foreground));
+            text-decoration: none;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+        
+        .nav-link:hover {
+            color: hsl(var(--secondary));
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .price-color {
+            color: hsl(var(--price-color));
+            font-weight: bold;
+        }
+        
+        .highlight-yellow {
+            color: hsl(var(--price-color));
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+        
+        .custom-price-text {
+            color: hsl(var(--price-color));
+            font-weight: bold;
+            font-size: 1.125rem;
+        }
+        
+        /* SEO improvements */
+        h1, h2, h3 {
+            line-height: 1.2;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: 'hsl(var(--background))',
+                        foreground: 'hsl(var(--foreground))',
+                        card: 'hsl(var(--card))',
+                        primary: 'hsl(var(--primary))',
+                        secondary: 'hsl(var(--secondary))',
+                        muted: 'hsl(var(--muted))',
+                        'muted-foreground': 'hsl(var(--muted-foreground))',
+                        accent: 'hsl(var(--accent))',
+                        border: 'hsl(var(--border))',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Hidden H1 for SEO - Crystal Sips as main keyword -->
+    <h1 class="sr-only">Crystal Sips - Premium Custom Water Bottles | Bardhaman District's #1 Custom Water Brand</h1>
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-lg border-b" style="background-color: hsl(var(--background) / 0.8); border-color: hsl(var(--border));">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img src="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg" alt="Crystal Sips Logo - Premium Custom Water Bottles" class="w-8 h-8 rounded-full">
+                    <span class="text-xl font-bold">Crystal Sips</span>
+                </div>
+                
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#designs" class="nav-link">Designs</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight">
+                <span class="gradient-text">
+                    You Bring The Idea,
+                    <br>
+                    We'll Bring The Magic
+                </span>
+            </h2>
+            
+            <p class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto gradient-text">
+                You Dream it. We Customise it.
+            </p>
+            
+            <p class="text-lg mb-8 max-w-2xl mx-auto" style="color: hsl(var(--muted-foreground));">
+                Elevate your brand with Crystal Sips premium custom water bottles. Perfect for events, corporate gifting, weddings, and everyday use.
+            </p>
+            
+            <!-- Added Image with SEO alt text -->
+            <div class="mb-8 flex justify-center">
+                <img src="https://i.ibb.co/GQ2MyL9p/IMG-20251028-215140.png" alt="Crystal Sips Custom Water Bottles - Premium Quality Custom Designs" class="rounded-lg shadow-lg max-w-full h-auto max-h-96">
+            </div>
+            
+            <button onclick="openWhatsApp()" class="btn-primary text-lg">
+                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+                Start Customisation
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="services" class="py-20 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="gradient-text">Why Choose Crystal Sips</span>
+                </h2>
+                <p class="text-lg" style="color: hsl(var(--muted-foreground));">
+                    Crystal Sips provides premium custom water bottle solutions for all your needs across India
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card p-8 text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background-color: hsl(var(--primary) / 0.2);">
+                            <svg class="w-8 h-8" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="8" r="7"/>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Premium Quality</h3>
+                    <p style="color: hsl(var(--muted-foreground));">High-grade materials with strict quality control for safe, clean water from Crystal Sips.</p>
+                </div>
+                
+                <div class="card p-8 text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background-color: hsl(var(--primary) / 0.2);">
+                            <svg class="w-8 h-8" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Custom Designs</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Tailored bottle designs from Crystal Sips that perfectly match your brand identity.</p>
+                </div>
+                
+                <div class="card p-8 text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-16 h-16 rounded-full flex items-center justify-center" style="background-color: hsl(var(--primary) / 0.2);">
+                            <svg class="w-8 h-8" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="1" y="3" width="15" height="13"/>
+                                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                                <circle cx="5.5" cy="18.5" r="2.5"/>
+                                <circle cx="18.5" cy="18.5" r="2.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fast Delivery</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Reliable and timely delivery from Crystal Sips to ensure your events run smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottle Sizes Section -->
+    <section id="designs" class="py-20 px-6" style="background-color: hsl(var(--muted) / 0.3);">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="gradient-text">Crystal Sips Bottle Sizes</span>
+                </h2>
+                <p class="text-lg" style="color: hsl(var(--muted-foreground));">
+                    Choose the perfect Crystal Sips bottle size for your needs
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- 1L Bottle - First -->
+                <div class="card overflow-hidden">
+                    <div class="p-8 flex items-center justify-center h-64" style="background: linear-gradient(to bottom right, hsl(var(--card)), hsl(var(--muted)));">
+                        <img src="https://i.ibb.co/pjcTsKtg/1L.png" alt="Crystal Sips 1L Custom Water Bottle" class="h-full w-auto object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">1L Crystal Sips Bottle</h3>
+                        <p class="mb-4" style="color: hsl(var(--muted-foreground));">Great for outdoor activities and sports. Large capacity Crystal Sips bottle for extended use.</p>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-3xl font-bold price-color">₹169.00</span>
+                            <span class="text-sm" style="color: hsl(var(--muted-foreground));">12 pcs/Box</span>
+                        </div>
+                        <button onclick="open1LWhatsApp()" class="btn-secondary">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Customize Now
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 500ml Bottle - Second -->
+                <div class="card overflow-hidden">
+                    <div class="p-8 flex items-center justify-center h-64" style="background: linear-gradient(to bottom right, hsl(var(--card)), hsl(var(--muted)));">
+                        <img src="https://i.ibb.co/JwSq9kq6/500ml.png" alt="Crystal Sips 500ml Custom Water Bottle" class="h-full w-auto object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">500ml Crystal Sips Bottle</h3>
+                        <p class="mb-4" style="color: hsl(var(--muted-foreground));">Ideal for daily use and offices. Balanced size Crystal Sips bottle for regular hydration needs.</p>
+                        <div class="flex items-baseline gap-2 mb-4">
+                            <span class="text-3xl font-bold price-color">₹199.00</span>
+                            <span class="text-sm" style="color: hsl(var(--muted-foreground));">24 pcs/Box</span>
+                        </div>
+                        <button onclick="open500mlWhatsApp()" class="btn-secondary">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Customize Now
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- 250ml Bottle - Third -->
+                <div class="card overflow-hidden">
+                    <div class="p-8 flex items-center justify-center h-64" style="background: linear-gradient(to bottom right, hsl(var(--card)), hsl(var(--muted)));">
+                        <img src="https://i.ibb.co/yF61qX26/250ml.png" alt="Crystal Sips 250ml Custom Water Bottle" class="h-full w-auto object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">250ml Crystal Sips Bottle</h3>
+                        <p class="mb-4" style="color: hsl(var(--muted-foreground));">Perfect for events and personal use. Compact size Crystal Sips bottle with maximum hydration.</p>
+                        <div class="mb-4">
+                            <span class="custom-price-text">Price Based On Quantity & Design</span>
+                        </div>
+                        <button onclick="open250mlWhatsApp()" class="btn-secondary">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Customize Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event Edition Section -->
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="gradient-text">Crystal Sips Event Edition</span>
+                </h2>
+                <p class="text-lg" style="color: hsl(var(--muted-foreground));">
+                    Special Crystal Sips bottles for your special occasions
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-1 gap-8 mb-12">
+                <!-- Event Edition Bottle - Fourth -->
+                <div class="card overflow-hidden">
+                    <div class="p-8 flex items-center justify-center h-64" style="background: linear-gradient(to bottom right, hsl(var(--card)), hsl(var(--muted)));">
+                        <img src="https://i.ibb.co/CszvKcS7/event-4vr-Ige-Is.webp" alt="Crystal Sips Event Edition Custom Water Bottle" class="h-full w-auto object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-3">Crystal Sips Event Edition Bottle</h3>
+                        <p class="mb-4" style="color: hsl(var(--muted-foreground));">Perfect for weddings, corporate events, and special occasions. Make your event memorable with Crystal Sips premium custom bottles.</p>
+                        <div class="mb-4">
+                            <span class="custom-price-text">Price Based On Quantity & Design</span>
+                        </div>
+                        <button onclick="openWeddingWhatsApp()" class="btn-secondary">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            Customize Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <button onclick="openWhatsApp()" class="btn-primary text-lg px-8">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    Start Your Crystal Sips Customisation
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-20 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">
+                    <span class="gradient-text">Crystal Sips Designing Process</span>
+                </h2>
+                <p class="text-lg" style="color: hsl(var(--muted-foreground));">
+                    Simple steps to get your custom Crystal Sips bottles
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background: linear-gradient(to bottom right, hsl(var(--primary) / 0.2), hsl(var(--secondary) / 0.2));">
+                            <svg class="w-10 h-10" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Share Your Idea</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Contact Crystal Sips via WhatsApp or email with your customization requirements</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background: linear-gradient(to bottom right, hsl(var(--primary) / 0.2), hsl(var(--secondary) / 0.2));">
+                            <svg class="w-10 h-10" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Design Approval</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Crystal Sips creates a design mockup for your approval and refinement</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background: linear-gradient(to bottom right, hsl(var(--primary) / 0.2), hsl(var(--secondary) / 0.2));">
+                            <svg class="w-10 h-10" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="15" rx="2" ry="2"/>
+                                <polyline points="17 2 12 7 7 2"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Production</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Your custom Crystal Sips bottles are manufactured with premium quality materials</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="mb-4 flex justify-center">
+                        <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background: linear-gradient(to bottom right, hsl(var(--primary) / 0.2), hsl(var(--secondary) / 0.2));">
+                            <svg class="w-10 h-10" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"/>
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Delivery</h3>
+                    <p style="color: hsl(var(--muted-foreground));">Fast and reliable delivery from Crystal Sips directly to your location across India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Do Section -->
+    <section class="py-20 px-6" style="background-color: hsl(var(--muted) / 0.3);">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8">
+                    <span class="gradient-text">What Crystal Sips Does</span>
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: hsl(var(--muted-foreground));">
+                    Crystal Sips specializes in custom-labeled water bottles for brands, businesses, and events across India. We elevate simple bottles into memorable branding experiences that reflect elegance and quality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="py-20 px-6">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8">
+                    <span class="gradient-text">Crystal Sips Story</span>
+                </h2>
+                <p class="text-xl max-w-4xl mx-auto" style="color: hsl(var(--muted-foreground));">
+                    What started as a simple idea to put meaning behind every drop — became a movement that changed how brands see bottled water.
+                </p>
+                <p class="text-xl max-w-4xl mx-auto mt-6" style="color: hsl(var(--muted-foreground));">
+                    Built on dedication and sleepless nights, Crystal Sips believes branding should be felt, not just seen. When others gave up, we set new standards.
+                </p>
+                <p class="text-xl max-w-4xl mx-auto mt-6" style="color: hsl(var(--muted-foreground));">
+                    Today, Crystal Sips stands as Bardhaman District #1 custom water label brand, crafting luxury bottles for top businesses, cafes, and startups across India.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Vision Section -->
+    <section class="py-20 px-6" style="background-color: hsl(var(--muted) / 0.3);">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold mb-8">
+                    <span class="gradient-text">Crystal Sips Vision</span>
+                </h2>
+                <p class="text-xl max-w-3xl mx-auto" style="color: hsl(var(--muted-foreground));">
+                    To redefine how brands connect with people one bottle at a time. Crystal Sips envisions every sip as a symbol of identity, creativity, and excellence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="border-t py-12 px-6" style="background-color: hsl(var(--card)); border-color: hsl(var(--border));">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <img src="https://i.ibb.co/svFQ7sJz/crystalsips-20251101-0001.jpg" alt="Crystal Sips Logo - Premium Custom Water Bottles" class="w-8 h-8 rounded-full">
+                        <span class="text-xl font-bold">Crystal Sips</span>
+                    </div>
+                    <p style="color: hsl(var(--muted-foreground));">
+                        Crystal Sips dedicated to providing clean, safe, and sustainable drinking water to communities across India. Every drop counts — together, we can make a difference.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Crystal Sips Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#designs" class="nav-link">Designs</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Contact Crystal Sips</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-2" style="color: hsl(var(--muted-foreground));">
+                            <svg class="w-4 h-4" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+91 97492 45556</span>
+                        </li>
+                        <li class="flex items-center gap-2" style="color: hsl(var(--muted-foreground));">
+                            <svg class="w-4 h-4" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>crystalsipsofficial.com</span>
+                        </li>
+                        <li class="flex items-center gap-2" style="color: hsl(var(--muted-foreground));">
+                            <svg class="w-4 h-4" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                            <a href="https://www.instagram.com/crystalsips?igsh=amxhbXU3cXB6cDJ5" target="_blank" class="nav-link">@crystalsips</a>
+                        </li>
+                        <li class="flex items-start gap-2" style="color: hsl(var(--muted-foreground));">
+                            <svg class="w-4 h-4 mt-1" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>Raniganj, West Bengal, India</span>
+                        </li>
+                        <li class="flex items-center gap-2" style="color: hsl(var(--muted-foreground));">
+                            <svg class="w-4 h-4" style="color: hsl(var(--primary));" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                            <a href="https://wa.me/919749245556" target="_blank" class="nav-link">WhatsApp Crystal Sips</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t pt-8 text-center" style="border-color: hsl(var(--border));">
+                <p style="color: hsl(var(--muted-foreground));">
+                    © 2024 Crystal Sips. Bardhaman District's #1 Custom Water Bottle Brand. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openWhatsApp() {
+            const message = "Hello Crystal Sips! I'm interested in custom water bottles. Can you help me with more information?";
+            const phone = "919749245556";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+        
+        function open1LWhatsApp() {
+            const message = "Hello Crystal Sips! I'm interested in the 1L custom water bottles. Can you help me with more information?";
+            const phone = "919749245556";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+        
+        function open500mlWhatsApp() {
+            const message = "Hello Crystal Sips! I'm interested in the 500ml custom water bottles. Can you help me with more information?";
+            const phone = "919749245556";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+        
+        function open250mlWhatsApp() {
+            const message = "Hello Crystal Sips! I'm interested in the 250ml custom water bottles. Can you help me with more information?";
+            const phone = "919749245556";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+        
+        function openWeddingWhatsApp() {
+            const message = "Hello Crystal Sips! I'm interested in the Event Edition custom water bottles for my event. Can you help me with more information?";
+            const phone = "919749245556";
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+</body>
+</html>
